@@ -1,0 +1,227 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #37474F;
+  line-height: 1.6;
+}
+.header{
+  height: 50px;
+  width: 100%;
+  /* border: 2px black solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 700;
+  color: 37474f;
+  font-family: Arial, sans-serif;
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline; 
+  color: white;
+}
+
+
+
+.links{
+  display: flex;
+  align-items: center;
+  /* margin-left: 360px; */
+  justify-content: space-evenly;
+  width: 70%;
+  text-decoration: none;
+  
+}
+.logo{
+  font-size: 75px;
+  margin-left: 10px;
+}
+.others{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  /* justify-content: space-between; */
+}
+
+.about-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Mission Section */
+.mission-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4CAF50;
+}
+
+.mission-statement {
+  background-color: #f4f4f4; /* Light background for contrast */
+  padding: 2rem;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.mission-statement h2 {
+  font-size: 2rem;
+  color: #2b7a78; /* Eco-friendly green color */
+  margin-bottom: 1rem;
+}
+
+.mission-statement p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.mission-statement ul {
+  list-style: disc inside;
+}
+
+.mission-statement li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.mission-statement li strong {
+  color: #2b7a78; /* Highlighted headings in eco-green */
+}
+
+/* Team Section */
+.team-section {
+  margin-top: 2rem;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4CAF50;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  bottom: 4px solid green;
+}
+
+.team-member h3 {
+  margin: 0.5rem 0;
+}
+
+/* Contact Section */
+.contact-section {
+  margin-top: 2rem;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4CAF50;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #388E3C;
+}
+footer {
+  background-color: #2e8b57;
+  color: #ffffff;
+  /* padding: 20px 0; */
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #555;
+  font-size: 14px;
+  color: #b0bec5;
+}
+
+.footer-section.inspiration p {
+  font-style: italic;
+  color: #cfd8dc;
+}
